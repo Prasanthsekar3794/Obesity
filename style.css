@@ -1,7 +1,4 @@
-@font-face {
-    font-family: DancingScript;
-    src: url(DancingScript-Bold.ttf);
-  }
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@700&display=swap');
 
 *{
     margin: 0;
@@ -14,6 +11,7 @@ body{
 }
 .container{
       margin-left: -10%;
+      width: 100%;
       
 }
 header img{
@@ -29,7 +27,7 @@ header p{
     text-transform: uppercase;
     font-weight:1000;
     color: rgb(194, 3, 3);
-    font-family: DancingScript;
+    font-family: 'Oswald', sans-serif;
 }
 header span{
     position: absolute;
@@ -40,7 +38,7 @@ header span{
     text-transform: uppercase;
     font-weight:500;
     color: white;
-    font-family: DancingScript;
+    font-family: 'Oswald', sans-serif;
 }
 .first-block,.second-block,.third-block,
 .fourth-block,.seven-block{
@@ -76,6 +74,12 @@ header span{
     letter-spacing:15px;
     font-family: 'Oswald', sans-serif;   
 }
+
+.second-left span{
+    font-family: 'Oswald', sans-serif;
+    font-size: 110%;
+}
+
 .first-left p {
     position: absolute;
     left:5%;
@@ -199,12 +203,10 @@ header span{
 }
 .third-left h3{
     width: 50% ;
-    margin-top: -5%;
-    margin-bottom: 4%;
-    font-weight: 150%;
-    font-size: 105%;
+    font-size: 100%;
     color: white ;
-    font-family:  sans-serif;
+    letter-spacing: 2px;
+    font-family: 'Oswald', sans-serif;
 }
 .third-left table tbody tr td {
     width: 35%;
